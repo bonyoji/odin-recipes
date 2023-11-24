@@ -1,0 +1,38 @@
+/* style.css */
+/* Recipe Page CSS */
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align:center;
+    background-color: darkblue;
+    color: gold;
+}
+
+h2 {
+    border-top: 5px solid darkblue;
+    border-bottom: 5px solid darkblue;
+    padding: 8px;
+}
+
+div {
+    max-width: 50%;
+    margin: auto;
+}
+
+div.intro {
+    display: flex;
+}
+
+.intro p, .intro img {
+    flex: 50%;
+}
+
+.intro p {
+    margin: auto;
+    line-height: 2em;
+    font-weight: bold;
+    font-style: italic;
+}
